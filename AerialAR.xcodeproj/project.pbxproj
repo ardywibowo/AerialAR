@@ -1,0 +1,835 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		183DD477A9608B4C898ED82F /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 51D9479D66D8B8C2539FA3BC /* libPods.a */; };
+		4C04BA351A0218E900B8D3CA /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C04BA341A0218E900B8D3CA /* CoreMedia.framework */; };
+		4C4431BC1AF582DD00C3B946 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C442FD01AF582DB00C3B946 /* Main_iPad.storyboard */; };
+		4C4431BE1AF582DD00C3B946 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C442FD21AF582DB00C3B946 /* Main_iPhone.storyboard */; };
+		4C4431C01AF582DD00C3B946 /* CalculationKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C442FD61AF582DB00C3B946 /* CalculationKit.m */; };
+		4C4431C11AF582DD00C3B946 /* CalculationKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C442FD61AF582DB00C3B946 /* CalculationKit.m */; };
+		4C4431D81AF582DD00C3B946 /* DrawingRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C442FF11AF582DB00C3B946 /* DrawingRecognizer.m */; };
+		4C4431D91AF582DD00C3B946 /* DrawingRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C442FF11AF582DB00C3B946 /* DrawingRecognizer.m */; };
+		4C4431DA1AF582DD00C3B946 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4C442FF31AF582DB00C3B946 /* InfoPlist.strings */; };
+		4C4431DB1AF582DD00C3B946 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4C442FF31AF582DB00C3B946 /* InfoPlist.strings */; };
+		4C4433401AF582DD00C3B946 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C4431631AF582DC00C3B946 /* Images.xcassets */; };
+		4C4433411AF582DD00C3B946 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C4431631AF582DC00C3B946 /* Images.xcassets */; };
+		4C4433441AF582DD00C3B946 /* MathPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C4431671AF582DC00C3B946 /* MathPoint.m */; };
+		4C4433451AF582DD00C3B946 /* MathPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C4431671AF582DC00C3B946 /* MathPoint.m */; };
+		4C4433461AF582DD00C3B946 /* MathVector.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C4431691AF582DC00C3B946 /* MathVector.m */; };
+		4C4433471AF582DD00C3B946 /* MathVector.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C4431691AF582DC00C3B946 /* MathVector.m */; };
+		4C4433481AF582DD00C3B946 /* PointOfInterest.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C44316B1AF582DC00C3B946 /* PointOfInterest.m */; };
+		4C4433491AF582DD00C3B946 /* PointOfInterest.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C44316B1AF582DC00C3B946 /* PointOfInterest.m */; };
+		4C44334C1AF582DD00C3B946 /* RXMLElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C4431711AF582DC00C3B946 /* RXMLElement.m */; };
+		4C44334D1AF582DD00C3B946 /* RXMLElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C4431711AF582DC00C3B946 /* RXMLElement.m */; };
+		4C44334E1AF582DD00C3B946 /* HelpVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C4431741AF582DC00C3B946 /* HelpVC.m */; };
+		4C44334F1AF582DD00C3B946 /* HelpVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C4431741AF582DC00C3B946 /* HelpVC.m */; };
+		4C4433501AF582DD00C3B946 /* ImageOutputVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C4431761AF582DC00C3B946 /* ImageOutputVC.m */; };
+		4C4433511AF582DD00C3B946 /* ImageOutputVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C4431761AF582DC00C3B946 /* ImageOutputVC.m */; };
+		4C4433541AF582DD00C3B946 /* VideoOutputVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C44317A1AF582DC00C3B946 /* VideoOutputVC.m */; };
+		4C4433551AF582DD00C3B946 /* VideoOutputVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C44317A1AF582DC00C3B946 /* VideoOutputVC.m */; };
+		4C4433561AF582DD00C3B946 /* POIPointView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C44317D1AF582DC00C3B946 /* POIPointView.m */; };
+		4C4433571AF582DD00C3B946 /* POIPointView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C44317D1AF582DC00C3B946 /* POIPointView.m */; };
+		4C4433581AF582DD00C3B946 /* POIView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C44317F1AF582DC00C3B946 /* POIView.m */; };
+		4C4433591AF582DD00C3B946 /* POIView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C44317F1AF582DC00C3B946 /* POIView.m */; };
+		4C469AAD1B6F5DBE00AF738D /* airobot.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 4C469AA91B6F5DBE00AF738D /* airobot.bundle */; };
+		4C469AAE1B6F5DBE00AF738D /* gps_image.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 4C469AAA1B6F5DBE00AF738D /* gps_image.bundle */; };
+		4C469AAF1B6F5DBE00AF738D /* kylefieldUAV.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 4C469AAB1B6F5DBE00AF738D /* kylefieldUAV.bundle */; };
+		4C469AB01B6F5DBE00AF738D /* trees.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 4C469AAC1B6F5DBE00AF738D /* trees.bundle */; };
+		4C903A801B2A57E000512D41 /* MathPlane.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C903A7F1B2A57E000512D41 /* MathPlane.m */; };
+		4C903A831B2D6AB300512D41 /* MathLine.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C903A821B2D6AB300512D41 /* MathLine.m */; };
+		4C903A861B2EBFD300512D41 /* DataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C903A851B2EBFD300512D41 /* DataManager.m */; };
+		4C903ABD1B30B13C00512D41 /* CalculationUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C903ABC1B30B13C00512D41 /* CalculationUtilities.m */; };
+		4CBE55CB19B01AB6006ECFBC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CBE55CA19B01AB6006ECFBC /* Foundation.framework */; };
+		4CBE55CD19B01AB6006ECFBC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CBE55CC19B01AB6006ECFBC /* CoreGraphics.framework */; };
+		4CBE55CF19B01AB6006ECFBC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CBE55CE19B01AB6006ECFBC /* UIKit.framework */; };
+		4CBE55ED19B01AB6006ECFBC /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CBE55EC19B01AB6006ECFBC /* XCTest.framework */; };
+		4CBE55EE19B01AB6006ECFBC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CBE55CA19B01AB6006ECFBC /* Foundation.framework */; };
+		4CBE55EF19B01AB6006ECFBC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CBE55CE19B01AB6006ECFBC /* UIKit.framework */; };
+		4CBE560319B01D32006ECFBC /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CBE560219B01D32006ECFBC /* MapKit.framework */; };
+		4CBE560719B01D57006ECFBC /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CBE560619B01D57006ECFBC /* MediaPlayer.framework */; };
+		4CBE560B19B01D61006ECFBC /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CBE560A19B01D61006ECFBC /* libz.dylib */; };
+		4CBE560D19B01D66006ECFBC /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CBE560C19B01D66006ECFBC /* libxml2.dylib */; };
+		4CBE560F19B01D6B006ECFBC /* libxml2.2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CBE560E19B01D6B006ECFBC /* libxml2.2.dylib */; };
+		4CBE561119B01D70006ECFBC /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CBE561019B01D70006ECFBC /* MobileCoreServices.framework */; };
+		4CBE561319B01D75006ECFBC /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CBE561219B01D75006ECFBC /* CFNetwork.framework */; };
+		4CBE561519B01D83006ECFBC /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CBE561419B01D83006ECFBC /* SystemConfiguration.framework */; };
+		B4D7F23B1CB4B81B00885A6E /* TitleVC.m in Sources */ = {isa = PBXBuildFile; fileRef = B4D7F23A1CB4B81B00885A6E /* TitleVC.m */; };
+		B4D7F2491CB4BF1400885A6E /* AerialAR-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B4D7F2441CB4BF1400885A6E /* AerialAR-Info.plist */; };
+		B4D7F24A1CB4BF1400885A6E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B4D7F2471CB4BF1400885A6E /* AppDelegate.m */; };
+		B4D7F24B1CB4BF1400885A6E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B4D7F2481CB4BF1400885A6E /* main.m */; };
+		B4D7F25D1CB534FF00885A6E /* testXML.xml in Resources */ = {isa = PBXBuildFile; fileRef = B4D7F25C1CB534FF00885A6E /* testXML.xml */; };
+		B4D7F2641CB5359B00885A6E /* airobot in Resources */ = {isa = PBXBuildFile; fileRef = B4D7F23C1CB4BB8B00885A6E /* airobot */; };
+		B4D7F2651CB5359B00885A6E /* gps_image in Resources */ = {isa = PBXBuildFile; fileRef = B4D7F23D1CB4BB8B00885A6E /* gps_image */; };
+		B4D7F2661CB5359B00885A6E /* kylefieldUAV in Resources */ = {isa = PBXBuildFile; fileRef = B4D7F23E1CB4BB8B00885A6E /* kylefieldUAV */; };
+		B4D7F2671CB5359B00885A6E /* trees in Resources */ = {isa = PBXBuildFile; fileRef = B4D7F23F1CB4BB8B00885A6E /* trees */; };
+		B4D7F26B1CB5362D00885A6E /* gps_image1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B4D7F2681CB5362D00885A6E /* gps_image1.jpg */; };
+		B4D7F26C1CB5362D00885A6E /* gps_image2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B4D7F2691CB5362D00885A6E /* gps_image2.jpg */; };
+		B4D7F26D1CB5362D00885A6E /* gps_image3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B4D7F26A1CB5362D00885A6E /* gps_image3.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4CBE55F019B01AB6006ECFBC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4CBE55BF19B01AB6006ECFBC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4CBE55C619B01AB6006ECFBC;
+			remoteInfo = "UAV Interface";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4C04BA341A0218E900B8D3CA /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		4C442FD11AF582DB00C3B946 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Main_iPad.storyboard; sourceTree = "<group>"; };
+		4C442FD31AF582DB00C3B946 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Main_iPhone.storyboard; sourceTree = "<group>"; };
+		4C442FD51AF582DB00C3B946 /* CalculationKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalculationKit.h; sourceTree = "<group>"; };
+		4C442FD61AF582DB00C3B946 /* CalculationKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalculationKit.m; sourceTree = "<group>"; };
+		4C442FF01AF582DB00C3B946 /* DrawingRecognizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawingRecognizer.h; sourceTree = "<group>"; };
+		4C442FF11AF582DB00C3B946 /* DrawingRecognizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawingRecognizer.m; sourceTree = "<group>"; };
+		4C442FF41AF582DB00C3B946 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = InfoPlist.strings; sourceTree = "<group>"; };
+		4C4431631AF582DC00C3B946 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = AerialAR/Images.xcassets; sourceTree = "<group>"; };
+		4C4431661AF582DC00C3B946 /* MathPoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MathPoint.h; sourceTree = "<group>"; };
+		4C4431671AF582DC00C3B946 /* MathPoint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MathPoint.m; sourceTree = "<group>"; };
+		4C4431681AF582DC00C3B946 /* MathVector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MathVector.h; sourceTree = "<group>"; };
+		4C4431691AF582DC00C3B946 /* MathVector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MathVector.m; sourceTree = "<group>"; };
+		4C44316A1AF582DC00C3B946 /* PointOfInterest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PointOfInterest.h; sourceTree = "<group>"; };
+		4C44316B1AF582DC00C3B946 /* PointOfInterest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PointOfInterest.m; sourceTree = "<group>"; };
+		4C4431701AF582DC00C3B946 /* RXMLElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RXMLElement.h; sourceTree = "<group>"; };
+		4C4431711AF582DC00C3B946 /* RXMLElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RXMLElement.m; sourceTree = "<group>"; };
+		4C4431731AF582DC00C3B946 /* HelpVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HelpVC.h; sourceTree = "<group>"; };
+		4C4431741AF582DC00C3B946 /* HelpVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HelpVC.m; sourceTree = "<group>"; };
+		4C4431751AF582DC00C3B946 /* ImageOutputVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageOutputVC.h; sourceTree = "<group>"; };
+		4C4431761AF582DC00C3B946 /* ImageOutputVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageOutputVC.m; sourceTree = "<group>"; };
+		4C4431791AF582DC00C3B946 /* VideoOutputVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoOutputVC.h; sourceTree = "<group>"; };
+		4C44317A1AF582DC00C3B946 /* VideoOutputVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoOutputVC.m; sourceTree = "<group>"; };
+		4C44317C1AF582DC00C3B946 /* POIPointView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POIPointView.h; sourceTree = "<group>"; };
+		4C44317D1AF582DC00C3B946 /* POIPointView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = POIPointView.m; sourceTree = "<group>"; };
+		4C44317E1AF582DC00C3B946 /* POIView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POIView.h; sourceTree = "<group>"; };
+		4C44317F1AF582DC00C3B946 /* POIView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = POIView.m; sourceTree = "<group>"; };
+		4C469AA91B6F5DBE00AF738D /* airobot.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = airobot.bundle; sourceTree = "<group>"; };
+		4C469AAA1B6F5DBE00AF738D /* gps_image.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = gps_image.bundle; sourceTree = "<group>"; };
+		4C469AAB1B6F5DBE00AF738D /* kylefieldUAV.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = kylefieldUAV.bundle; sourceTree = "<group>"; };
+		4C469AAC1B6F5DBE00AF738D /* trees.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = trees.bundle; sourceTree = "<group>"; };
+		4C903A7E1B2A57E000512D41 /* MathPlane.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MathPlane.h; sourceTree = "<group>"; };
+		4C903A7F1B2A57E000512D41 /* MathPlane.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MathPlane.m; sourceTree = "<group>"; };
+		4C903A811B2D6AB300512D41 /* MathLine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MathLine.h; sourceTree = "<group>"; };
+		4C903A821B2D6AB300512D41 /* MathLine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MathLine.m; sourceTree = "<group>"; };
+		4C903A841B2EBFD300512D41 /* DataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataManager.h; sourceTree = "<group>"; };
+		4C903A851B2EBFD300512D41 /* DataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataManager.m; sourceTree = "<group>"; };
+		4C903ABB1B30B13C00512D41 /* CalculationUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalculationUtilities.h; sourceTree = "<group>"; };
+		4C903ABC1B30B13C00512D41 /* CalculationUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalculationUtilities.m; sourceTree = "<group>"; };
+		4CBE55C719B01AB6006ECFBC /* AerialAR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AerialAR.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CBE55CA19B01AB6006ECFBC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4CBE55CC19B01AB6006ECFBC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		4CBE55CE19B01AB6006ECFBC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		4CBE55EB19B01AB6006ECFBC /* AerialARTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AerialARTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CBE55EC19B01AB6006ECFBC /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		4CBE560219B01D32006ECFBC /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		4CBE560619B01D57006ECFBC /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		4CBE560A19B01D61006ECFBC /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		4CBE560C19B01D66006ECFBC /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
+		4CBE560E19B01D6B006ECFBC /* libxml2.2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.2.dylib; path = usr/lib/libxml2.2.dylib; sourceTree = SDKROOT; };
+		4CBE561019B01D70006ECFBC /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		4CBE561219B01D75006ECFBC /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		4CBE561419B01D83006ECFBC /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		51D9479D66D8B8C2539FA3BC /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E7A217C50CF4B5CCB5BCDCB /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		B4D7F2391CB4B81B00885A6E /* TitleVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TitleVC.h; sourceTree = "<group>"; };
+		B4D7F23A1CB4B81B00885A6E /* TitleVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TitleVC.m; sourceTree = "<group>"; };
+		B4D7F23C1CB4BB8B00885A6E /* airobot */ = {isa = PBXFileReference; lastKnownFileType = folder; path = airobot; sourceTree = "<group>"; };
+		B4D7F23D1CB4BB8B00885A6E /* gps_image */ = {isa = PBXFileReference; lastKnownFileType = folder; path = gps_image; sourceTree = "<group>"; };
+		B4D7F23E1CB4BB8B00885A6E /* kylefieldUAV */ = {isa = PBXFileReference; lastKnownFileType = folder; path = kylefieldUAV; sourceTree = "<group>"; };
+		B4D7F23F1CB4BB8B00885A6E /* trees */ = {isa = PBXFileReference; lastKnownFileType = folder; path = trees; sourceTree = "<group>"; };
+		B4D7F2441CB4BF1400885A6E /* AerialAR-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "AerialAR-Info.plist"; path = "AerialAR/AerialAR-Info.plist"; sourceTree = SOURCE_ROOT; };
+		B4D7F2451CB4BF1400885A6E /* AerialAR-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "AerialAR-Prefix.pch"; path = "AerialAR/AerialAR-Prefix.pch"; sourceTree = SOURCE_ROOT; };
+		B4D7F2461CB4BF1400885A6E /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = AerialAR/AppDelegate.h; sourceTree = SOURCE_ROOT; };
+		B4D7F2471CB4BF1400885A6E /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = AerialAR/AppDelegate.m; sourceTree = SOURCE_ROOT; };
+		B4D7F2481CB4BF1400885A6E /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = AerialAR/main.m; sourceTree = SOURCE_ROOT; };
+		B4D7F25C1CB534FF00885A6E /* testXML.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = testXML.xml; path = AerialAR/Data/gps_image/XML/testXML.xml; sourceTree = "<group>"; };
+		B4D7F2681CB5362D00885A6E /* gps_image1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = gps_image1.jpg; path = AerialAR/Data/gps_image/Media/gps_image1.jpg; sourceTree = "<group>"; };
+		B4D7F2691CB5362D00885A6E /* gps_image2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = gps_image2.jpg; path = AerialAR/Data/gps_image/Media/gps_image2.jpg; sourceTree = "<group>"; };
+		B4D7F26A1CB5362D00885A6E /* gps_image3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = gps_image3.jpg; path = AerialAR/Data/gps_image/Media/gps_image3.jpg; sourceTree = "<group>"; };
+		B4D7F26E1CB5363E00885A6E /* testXML.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = testXML.xml; path = AerialAR/Data/gps_image/XML/testXML.xml; sourceTree = "<group>"; };
+		F6EA732D114D13635CDC7059 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4CBE55C419B01AB6006ECFBC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C04BA351A0218E900B8D3CA /* CoreMedia.framework in Frameworks */,
+				4CBE561519B01D83006ECFBC /* SystemConfiguration.framework in Frameworks */,
+				4CBE561319B01D75006ECFBC /* CFNetwork.framework in Frameworks */,
+				4CBE561119B01D70006ECFBC /* MobileCoreServices.framework in Frameworks */,
+				4CBE560F19B01D6B006ECFBC /* libxml2.2.dylib in Frameworks */,
+				4CBE560D19B01D66006ECFBC /* libxml2.dylib in Frameworks */,
+				4CBE560B19B01D61006ECFBC /* libz.dylib in Frameworks */,
+				4CBE560719B01D57006ECFBC /* MediaPlayer.framework in Frameworks */,
+				4CBE560319B01D32006ECFBC /* MapKit.framework in Frameworks */,
+				4CBE55CD19B01AB6006ECFBC /* CoreGraphics.framework in Frameworks */,
+				4CBE55CF19B01AB6006ECFBC /* UIKit.framework in Frameworks */,
+				4CBE55CB19B01AB6006ECFBC /* Foundation.framework in Frameworks */,
+				183DD477A9608B4C898ED82F /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CBE55E819B01AB6006ECFBC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CBE55ED19B01AB6006ECFBC /* XCTest.framework in Frameworks */,
+				4CBE55EF19B01AB6006ECFBC /* UIKit.framework in Frameworks */,
+				4CBE55EE19B01AB6006ECFBC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4C442FC91AF582DB00C3B946 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				B4D7F2441CB4BF1400885A6E /* AerialAR-Info.plist */,
+				B4D7F2451CB4BF1400885A6E /* AerialAR-Prefix.pch */,
+				B4D7F2461CB4BF1400885A6E /* AppDelegate.h */,
+				B4D7F2471CB4BF1400885A6E /* AppDelegate.m */,
+				B4D7F2481CB4BF1400885A6E /* main.m */,
+				4C442FF31AF582DB00C3B946 /* InfoPlist.strings */,
+			);
+			name = Assets;
+			path = AerialAR/Assets;
+			sourceTree = "<group>";
+		};
+		4C442FD41AF582DB00C3B946 /* Calculation Kit */ = {
+			isa = PBXGroup;
+			children = (
+				4C442FD51AF582DB00C3B946 /* CalculationKit.h */,
+				4C442FD61AF582DB00C3B946 /* CalculationKit.m */,
+				4C903A841B2EBFD300512D41 /* DataManager.h */,
+				4C903A851B2EBFD300512D41 /* DataManager.m */,
+				4C903ABB1B30B13C00512D41 /* CalculationUtilities.h */,
+				4C903ABC1B30B13C00512D41 /* CalculationUtilities.m */,
+			);
+			name = "Calculation Kit";
+			path = "AerialAR/Calculation Kit";
+			sourceTree = "<group>";
+		};
+		4C442FD71AF582DB00C3B946 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				B4D7F23C1CB4BB8B00885A6E /* airobot */,
+				B4D7F23D1CB4BB8B00885A6E /* gps_image */,
+				B4D7F23E1CB4BB8B00885A6E /* kylefieldUAV */,
+				B4D7F23F1CB4BB8B00885A6E /* trees */,
+				4C469AA91B6F5DBE00AF738D /* airobot.bundle */,
+				4C469AAA1B6F5DBE00AF738D /* gps_image.bundle */,
+				4C469AAB1B6F5DBE00AF738D /* kylefieldUAV.bundle */,
+				4C469AAC1B6F5DBE00AF738D /* trees.bundle */,
+			);
+			name = Data;
+			path = AerialAR/Data;
+			sourceTree = "<group>";
+		};
+		4C442FEF1AF582DB00C3B946 /* Ellipse Gesture Recognizer */ = {
+			isa = PBXGroup;
+			children = (
+				4C442FF01AF582DB00C3B946 /* DrawingRecognizer.h */,
+				4C442FF11AF582DB00C3B946 /* DrawingRecognizer.m */,
+			);
+			name = "Ellipse Gesture Recognizer";
+			path = "AerialAR/Ellipse Gesture Recognizer";
+			sourceTree = "<group>";
+		};
+		4C4431651AF582DC00C3B946 /* Math Structures */ = {
+			isa = PBXGroup;
+			children = (
+				4C4431661AF582DC00C3B946 /* MathPoint.h */,
+				4C4431671AF582DC00C3B946 /* MathPoint.m */,
+				4C4431681AF582DC00C3B946 /* MathVector.h */,
+				4C4431691AF582DC00C3B946 /* MathVector.m */,
+				4C903A811B2D6AB300512D41 /* MathLine.h */,
+				4C903A821B2D6AB300512D41 /* MathLine.m */,
+				4C903A7E1B2A57E000512D41 /* MathPlane.h */,
+				4C903A7F1B2A57E000512D41 /* MathPlane.m */,
+				4C44316A1AF582DC00C3B946 /* PointOfInterest.h */,
+				4C44316B1AF582DC00C3B946 /* PointOfInterest.m */,
+			);
+			name = "Math Structures";
+			path = "AerialAR/Math Structures";
+			sourceTree = "<group>";
+		};
+		4C44316F1AF582DC00C3B946 /* RXMLElement */ = {
+			isa = PBXGroup;
+			children = (
+				4C4431701AF582DC00C3B946 /* RXMLElement.h */,
+				4C4431711AF582DC00C3B946 /* RXMLElement.m */,
+			);
+			name = RXMLElement;
+			path = AerialAR/RXMLElement;
+			sourceTree = "<group>";
+		};
+		4C4431721AF582DC00C3B946 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				B4D7F2391CB4B81B00885A6E /* TitleVC.h */,
+				B4D7F23A1CB4B81B00885A6E /* TitleVC.m */,
+				4C4431751AF582DC00C3B946 /* ImageOutputVC.h */,
+				4C4431761AF582DC00C3B946 /* ImageOutputVC.m */,
+				4C4431791AF582DC00C3B946 /* VideoOutputVC.h */,
+				4C44317A1AF582DC00C3B946 /* VideoOutputVC.m */,
+				4C4431731AF582DC00C3B946 /* HelpVC.h */,
+				4C4431741AF582DC00C3B946 /* HelpVC.m */,
+			);
+			name = "View Controllers";
+			path = "AerialAR/View Controllers";
+			sourceTree = "<group>";
+		};
+		4C44317B1AF582DC00C3B946 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4C44317E1AF582DC00C3B946 /* POIView.h */,
+				4C44317F1AF582DC00C3B946 /* POIView.m */,
+				4C44317C1AF582DC00C3B946 /* POIPointView.h */,
+				4C44317D1AF582DC00C3B946 /* POIPointView.m */,
+			);
+			name = Views;
+			path = AerialAR/Views;
+			sourceTree = "<group>";
+		};
+		4CBE55BE19B01AB6006ECFBC = {
+			isa = PBXGroup;
+			children = (
+				B4D7F26E1CB5363E00885A6E /* testXML.xml */,
+				B4D7F2681CB5362D00885A6E /* gps_image1.jpg */,
+				B4D7F2691CB5362D00885A6E /* gps_image2.jpg */,
+				B4D7F26A1CB5362D00885A6E /* gps_image3.jpg */,
+				B4D7F25C1CB534FF00885A6E /* testXML.xml */,
+				4C442FD01AF582DB00C3B946 /* Main_iPad.storyboard */,
+				4C442FD21AF582DB00C3B946 /* Main_iPhone.storyboard */,
+				4C4431721AF582DC00C3B946 /* View Controllers */,
+				4C44317B1AF582DC00C3B946 /* Views */,
+				4C442FEF1AF582DB00C3B946 /* Ellipse Gesture Recognizer */,
+				4C4431651AF582DC00C3B946 /* Math Structures */,
+				4C442FD41AF582DB00C3B946 /* Calculation Kit */,
+				4C442FD71AF582DB00C3B946 /* Data */,
+				4C442FC91AF582DB00C3B946 /* Assets */,
+				4C44316F1AF582DC00C3B946 /* RXMLElement */,
+				4CBE55C919B01AB6006ECFBC /* Frameworks */,
+				4CBE55C819B01AB6006ECFBC /* Products */,
+				CF6ED9C89588AB732C282869 /* Pods */,
+				4C4431631AF582DC00C3B946 /* Images.xcassets */,
+			);
+			sourceTree = "<group>";
+		};
+		4CBE55C819B01AB6006ECFBC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4CBE55C719B01AB6006ECFBC /* AerialAR.app */,
+				4CBE55EB19B01AB6006ECFBC /* AerialARTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4CBE55C919B01AB6006ECFBC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4CBE55CE19B01AB6006ECFBC /* UIKit.framework */,
+				4CBE55CA19B01AB6006ECFBC /* Foundation.framework */,
+				4CBE55CC19B01AB6006ECFBC /* CoreGraphics.framework */,
+				4CBE561419B01D83006ECFBC /* SystemConfiguration.framework */,
+				4C04BA341A0218E900B8D3CA /* CoreMedia.framework */,
+				4CBE561219B01D75006ECFBC /* CFNetwork.framework */,
+				4CBE561019B01D70006ECFBC /* MobileCoreServices.framework */,
+				4CBE560619B01D57006ECFBC /* MediaPlayer.framework */,
+				4CBE560219B01D32006ECFBC /* MapKit.framework */,
+				4CBE560E19B01D6B006ECFBC /* libxml2.2.dylib */,
+				4CBE560C19B01D66006ECFBC /* libxml2.dylib */,
+				4CBE560A19B01D61006ECFBC /* libz.dylib */,
+				4CBE55EC19B01AB6006ECFBC /* XCTest.framework */,
+				51D9479D66D8B8C2539FA3BC /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CF6ED9C89588AB732C282869 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F6EA732D114D13635CDC7059 /* Pods.debug.xcconfig */,
+				6E7A217C50CF4B5CCB5BCDCB /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4CBE55C619B01AB6006ECFBC /* AerialAR */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4CBE55FC19B01AB6006ECFBC /* Build configuration list for PBXNativeTarget "AerialAR" */;
+			buildPhases = (
+				8BBD49D88D239AFB2008DF9D /* Check Pods Manifest.lock */,
+				4CBE55C319B01AB6006ECFBC /* Sources */,
+				4CBE55C419B01AB6006ECFBC /* Frameworks */,
+				4CBE55C519B01AB6006ECFBC /* Resources */,
+				52FFA4ED72BED7EB4A2D3AE3 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AerialAR;
+			productName = "UAV Interface";
+			productReference = 4CBE55C719B01AB6006ECFBC /* AerialAR.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4CBE55EA19B01AB6006ECFBC /* AerialARTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4CBE55FF19B01AB6006ECFBC /* Build configuration list for PBXNativeTarget "AerialARTests" */;
+			buildPhases = (
+				4CBE55E719B01AB6006ECFBC /* Sources */,
+				4CBE55E819B01AB6006ECFBC /* Frameworks */,
+				4CBE55E919B01AB6006ECFBC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4CBE55F119B01AB6006ECFBC /* PBXTargetDependency */,
+			);
+			name = AerialARTests;
+			productName = "UAV InterfaceTests";
+			productReference = 4CBE55EB19B01AB6006ECFBC /* AerialARTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4CBE55BF19B01AB6006ECFBC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Dr. Robin Murphy's Robotics Research Laboratory";
+				TargetAttributes = {
+					4CBE55EA19B01AB6006ECFBC = {
+						TestTargetID = 4CBE55C619B01AB6006ECFBC;
+					};
+				};
+			};
+			buildConfigurationList = 4CBE55C219B01AB6006ECFBC /* Build configuration list for PBXProject "AerialAR" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4CBE55BE19B01AB6006ECFBC;
+			productRefGroup = 4CBE55C819B01AB6006ECFBC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4CBE55C619B01AB6006ECFBC /* AerialAR */,
+				4CBE55EA19B01AB6006ECFBC /* AerialARTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4CBE55C519B01AB6006ECFBC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4D7F2491CB4BF1400885A6E /* AerialAR-Info.plist in Resources */,
+				4C4431DA1AF582DD00C3B946 /* InfoPlist.strings in Resources */,
+				4C4431BE1AF582DD00C3B946 /* Main_iPhone.storyboard in Resources */,
+				4C4431BC1AF582DD00C3B946 /* Main_iPad.storyboard in Resources */,
+				4C469AB01B6F5DBE00AF738D /* trees.bundle in Resources */,
+				4C469AAE1B6F5DBE00AF738D /* gps_image.bundle in Resources */,
+				4C469AAD1B6F5DBE00AF738D /* airobot.bundle in Resources */,
+				4C469AAF1B6F5DBE00AF738D /* kylefieldUAV.bundle in Resources */,
+				B4D7F2641CB5359B00885A6E /* airobot in Resources */,
+				B4D7F2651CB5359B00885A6E /* gps_image in Resources */,
+				B4D7F2661CB5359B00885A6E /* kylefieldUAV in Resources */,
+				B4D7F2671CB5359B00885A6E /* trees in Resources */,
+				4C4433401AF582DD00C3B946 /* Images.xcassets in Resources */,
+				B4D7F26B1CB5362D00885A6E /* gps_image1.jpg in Resources */,
+				B4D7F26C1CB5362D00885A6E /* gps_image2.jpg in Resources */,
+				B4D7F26D1CB5362D00885A6E /* gps_image3.jpg in Resources */,
+				B4D7F25D1CB534FF00885A6E /* testXML.xml in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CBE55E919B01AB6006ECFBC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C4431DB1AF582DD00C3B946 /* InfoPlist.strings in Resources */,
+				4C4433411AF582DD00C3B946 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		52FFA4ED72BED7EB4A2D3AE3 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8BBD49D88D239AFB2008DF9D /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4CBE55C319B01AB6006ECFBC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C4433481AF582DD00C3B946 /* PointOfInterest.m in Sources */,
+				4C4433541AF582DD00C3B946 /* VideoOutputVC.m in Sources */,
+				4C4431C01AF582DD00C3B946 /* CalculationKit.m in Sources */,
+				4C4431D81AF582DD00C3B946 /* DrawingRecognizer.m in Sources */,
+				4C4433461AF582DD00C3B946 /* MathVector.m in Sources */,
+				4C903A801B2A57E000512D41 /* MathPlane.m in Sources */,
+				4C903A831B2D6AB300512D41 /* MathLine.m in Sources */,
+				4C903A861B2EBFD300512D41 /* DataManager.m in Sources */,
+				4C44334E1AF582DD00C3B946 /* HelpVC.m in Sources */,
+				4C4433441AF582DD00C3B946 /* MathPoint.m in Sources */,
+				4C903ABD1B30B13C00512D41 /* CalculationUtilities.m in Sources */,
+				4C4433581AF582DD00C3B946 /* POIView.m in Sources */,
+				4C44334C1AF582DD00C3B946 /* RXMLElement.m in Sources */,
+				B4D7F23B1CB4B81B00885A6E /* TitleVC.m in Sources */,
+				B4D7F24A1CB4BF1400885A6E /* AppDelegate.m in Sources */,
+				4C4433501AF582DD00C3B946 /* ImageOutputVC.m in Sources */,
+				B4D7F24B1CB4BF1400885A6E /* main.m in Sources */,
+				4C4433561AF582DD00C3B946 /* POIPointView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CBE55E719B01AB6006ECFBC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C4433491AF582DD00C3B946 /* PointOfInterest.m in Sources */,
+				4C4433551AF582DD00C3B946 /* VideoOutputVC.m in Sources */,
+				4C4431C11AF582DD00C3B946 /* CalculationKit.m in Sources */,
+				4C4431D91AF582DD00C3B946 /* DrawingRecognizer.m in Sources */,
+				4C4433471AF582DD00C3B946 /* MathVector.m in Sources */,
+				4C44334F1AF582DD00C3B946 /* HelpVC.m in Sources */,
+				4C4433451AF582DD00C3B946 /* MathPoint.m in Sources */,
+				4C4433591AF582DD00C3B946 /* POIView.m in Sources */,
+				4C44334D1AF582DD00C3B946 /* RXMLElement.m in Sources */,
+				4C4433511AF582DD00C3B946 /* ImageOutputVC.m in Sources */,
+				4C4433571AF582DD00C3B946 /* POIPointView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4CBE55F119B01AB6006ECFBC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4CBE55C619B01AB6006ECFBC /* AerialAR */;
+			targetProxy = 4CBE55F019B01AB6006ECFBC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4C442FD01AF582DB00C3B946 /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4C442FD11AF582DB00C3B946 /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			path = AerialAR/Base.lproj;
+			sourceTree = "<group>";
+		};
+		4C442FD21AF582DB00C3B946 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4C442FD31AF582DB00C3B946 /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			path = AerialAR/Base.lproj;
+			sourceTree = "<group>";
+		};
+		4C442FF31AF582DB00C3B946 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4C442FF41AF582DB00C3B946 /* en */,
+			);
+			name = InfoPlist.strings;
+			path = ../en.lproj;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4CBE55FA19B01AB6006ECFBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = NO;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = "$(CLANG_WARN_SUSPICIOUS_IMPLICIT_CONVERSION)";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = NO;
+				"GCC_WARN_64_TO_32_BIT_CONVERSION[arch=*64]" = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = NO;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = NO;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"${SDK_DIR}/usr/include/libxml2",
+					"${SDK_DIR}/usr/include/",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)",
+					"$(PROJECT_DIR)",
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = "";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4CBE55FB19B01AB6006ECFBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = NO;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = "$(CLANG_WARN_SUSPICIOUS_IMPLICIT_CONVERSION)";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = NO;
+				"GCC_WARN_64_TO_32_BIT_CONVERSION[arch=*64]" = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = NO;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = NO;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"${SDK_DIR}/usr/include/libxml2",
+					"${SDK_DIR}/usr/include/",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)",
+					"$(PROJECT_DIR)",
+				);
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4CBE55FD19B01AB6006ECFBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F6EA732D114D13635CDC7059 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AerialAR/AerialAR-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"${SDK_DIR}/usr/include/libxml2",
+					"$(SDK_DIR)/usr/include",
+				);
+				INFOPLIST_FILE = "AerialAR/AerialAR-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(SRCROOT)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.RMRRL.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = AerialAR;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		4CBE55FE19B01AB6006ECFBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6E7A217C50CF4B5CCB5BCDCB /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AerialAR/AerialAR-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"${SDK_DIR}/usr/include/libxml2",
+					"$(SDK_DIR)/usr/include",
+				);
+				INFOPLIST_FILE = "AerialAR/AerialAR-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(SRCROOT)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.RMRRL.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = AerialAR;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		4CBE560019B01AB6006ECFBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/AerialAR.app/AerialAR";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AerialAR/AerialAR-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "AerialARTests/AerialARTests-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(PROJECT_DIR)",
+					"$(inherited)",
+					"$(SRCROOT)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "RMRRL.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = AerialARTests;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		4CBE560119B01AB6006ECFBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/AerialAR.app/AerialAR";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AerialAR/AerialAR-Prefix.pch";
+				INFOPLIST_FILE = "AerialARTests/AerialARTests-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(PROJECT_DIR)",
+					"$(inherited)",
+					"$(SRCROOT)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "RMRRL.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = AerialARTests;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4CBE55C219B01AB6006ECFBC /* Build configuration list for PBXProject "AerialAR" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CBE55FA19B01AB6006ECFBC /* Debug */,
+				4CBE55FB19B01AB6006ECFBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4CBE55FC19B01AB6006ECFBC /* Build configuration list for PBXNativeTarget "AerialAR" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CBE55FD19B01AB6006ECFBC /* Debug */,
+				4CBE55FE19B01AB6006ECFBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4CBE55FF19B01AB6006ECFBC /* Build configuration list for PBXNativeTarget "AerialARTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CBE560019B01AB6006ECFBC /* Debug */,
+				4CBE560119B01AB6006ECFBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4CBE55BF19B01AB6006ECFBC /* Project object */;
+}

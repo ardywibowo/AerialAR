@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+
+<PLACES>
+	<LOC id="1">
+		<longitude>-96.351111</longitude>
+		<latitude>30.574444</latitude>
+		<altitude>105</altitude>
+        <heading>165</heading>
+		<pitch>70</pitch>
+		<hfov>74</hfov>
+		<vfov>56</vfov>
+	</LOC>
+	<LOC id="2">
+		<longitude>-96.351111</longitude>
+		<latitude>30.574444</latitude>
+		<altitude>106</altitude>
+        <heading>247</heading>
+		<pitch>70</pitch>
+		<hfov>74</hfov>
+		<vfov>56</vfov>
+	</LOC>
+</PLACES>

@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+
+<PLACES>
+	<LOC id="1">
+		<longitude>-96.337169</longitude>
+		<latitude>30.609171</latitude>
+		<altitude>110</altitude>
+        <heading>290</heading>
+		<pitch>74</pitch>
+		<hfov>74</hfov>
+		<vfov>56</vfov>
+	</LOC>
+</PLACES>

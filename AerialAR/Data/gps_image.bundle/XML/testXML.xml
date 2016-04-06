@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+
+<PLACES>
+    <LOC id="1">
+        <longitude>-96.340881</longitude>
+        <latitude>30.608953</latitude>
+        <altitude>160</altitude>
+        <heading>71</heading>
+        <pitch>89.5</pitch>
+        <roll>0</roll>
+        <hfov>78</hfov>
+        <vfov>58.5</vfov>
+    </LOC>
+    <LOC id="2">
+        <longitude>-96.340875</longitude>
+        <latitude>30.60890</latitude>
+        <altitude>130</altitude>
+        <heading>110</heading>
+        <pitch>90</pitch>
+        <roll>0</roll>
+        <hfov>65</hfov>
+        <vfov>46</vfov>
+    </LOC>
+    <LOC id="3">
+		<longitude>-96.341609</longitude>
+		<latitude>30.609893</latitude>
+		<altitude>150</altitude>
+        <heading>319</heading>
+		<pitch>89.5</pitch>
+        <roll>0.8</roll>
+        <hfov>74</hfov>
+		<vfov>55.5</vfov>
+	</LOC>
+</PLACES>
