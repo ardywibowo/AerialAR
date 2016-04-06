@@ -15,4 +15,4 @@ the program is able to find the intersection of these lines with the ground plan
 a shape resembling a circle in 3D space can be constructed with its position and dimensions known.
 
 ## Screenshots
-![Alt text](/Screenshots/Aerial1.tiff?raw=true "")
+Please find screenshots in the Screenshots folder
